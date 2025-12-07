@@ -1,0 +1,7 @@
+*.m text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+DataSets/* filter=lfs diff=lfs merge=lfs -text
+Models/* filter=lfs diff=lfs merge=lfs -text
+emnist_source_files/* filter=lfs diff=lfs merge=lfs -text
+DataSets/emnist_source_files/* filter=lfs diff=lfs merge=lfs -text
